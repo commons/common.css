@@ -9,6 +9,23 @@
 .trunc { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 
+.fr {
+	float:right;
+}
+
+.fl {
+	float:left;
+}
+
+.oh {
+	overflow:hidden;
+}
+
+.cl {
+	clear:both;
+}
+
+
 
 /* Rounded corners */
 .r5 {
