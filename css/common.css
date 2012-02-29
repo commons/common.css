@@ -78,3 +78,22 @@
 	padding: 50px;
 }
 
+/* gradients */
+
+.gd-pink {
+  /* fallback */
+  background-color: #ff00cc;
+  background-repeat: repeat-x;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff00cc), to(#cc0099));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #cc0099, #ff00cc);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #cc0099, #ff00cc);
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #cc0099, #ff00cc);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #cc0099, #ff00cc);
+}
+
+
