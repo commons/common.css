@@ -157,3 +157,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffff99', EndColorStr='#ffcc33'); /* IE6–IE9 */
   background-image: linear-gradient(top, #ffff99, #ffcc33);
 }
+
+.m-point {
+	cursor:pointer;
+}
