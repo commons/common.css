@@ -1,0 +1,152 @@
+/* bubbles */
+
+.bubble {
+	border-color: #EE4B4B;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	color:#333;
+	padding:20px;
+	width: 225px;
+	height: 125px;
+	margin: 8px 13px 25px 0;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	background: #c2f5fc;
+	text-align: left;
+	float: left;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	line-height: 1.3;
+	border-width: 0;
+}
+
+.bubble.red {
+	background-color:#ffe1d9;
+}
+
+.bubble.green {
+	background-color:#f5ffd9;
+}
+
+.bubble.blue {
+	background-color:#d7f8fc;
+}
+
+.bubble.magenta {
+	background-color:#ffd9e9;
+}
+
+.bubble.orange {
+	background-color:#ffe7d9;
+}
+
+.bubble.yellow {
+	background-color:#fff3d9;
+}
+
+.bubble.grey {
+	background-color:#dddddd;
+}
+
+.bubble p {
+	colour:#333;
+	height:4em;
+}
+
+.bubble a.button, .bubble a.button:visited {
+	position:absolute;
+	bottom:20px;
+	right:20px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.bubble:last-child: {
+	margin-right:0;
+}
+
+.bubble:before, .bubble:after { 
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 124px;
+	border-top: 15px solid transparent;
+	border-left: 0 solid transparent;
+	border-right: 15px solid transparent;
+	border-left-color:#000;
+	border-top-color:#000;
+	
+}
+
+.bubble.red:after {
+	border-left-color:#ffe1d9;
+	border-top-color:#ffe1d9;
+}
+
+.bubble.green:after {
+	border-left-color:#f5ffd9;
+	border-top-color:#f5ffd9;
+}
+
+.bubble.blue:after {
+	border-left-color:#d7f8fc;
+	border-top-color:#d7f8fc;
+}
+
+.bubble.magenta:after {
+	border-left-color:#ffd9e9;
+	border-top-color:#ffd9e9;
+}
+
+.bubble.orange:after {
+	border-left-color:#ffe7d9;
+	border-top-color:#ffe7d9;
+}
+
+.bubble.yellow:after {
+	border-left-color:#fff3d9;
+	border-top-color:#fff3d9;
+}
+
+.bubble.grey:after {
+	border-left-color:#dddddd;
+	border-top-color:#dddddd;
+}
+	
+.bubble:hover { 
+	box-shadow:3px 3px 5px rgba(0,0,0,0.2);
+	-webkit-box-shadow:3px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow:3px 3px 5px rgba(0,0,0,0.2); 
+}
+
+.bubble-large {
+	border-color: #EE4B4B;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	color:#333;
+	padding:20px 20px 10px 20px;
+	margin: 8px 0;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	background: #eee;
+	text-align: left;
+	float: left;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	line-height: 1.3;
+	border-width: 0;
+}
+
+
