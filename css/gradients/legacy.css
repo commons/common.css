@@ -1,0 +1,50 @@
+/* gradients */
+
+.gd-pink {
+  /* fallback */
+  background-color: #ff00cc;
+  /* Safari 4-5, Chrome 1-9 */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff00cc), to(#cc0099));
+  /* Safari 5.1, Chrome 10+ */
+  background-image: -webkit-linear-gradient(top, #cc0099, #ff00cc);
+  /* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(top, #cc0099, #ff00cc);
+  /* IE 10 */
+  background-image: -ms-linear-gradient(top, #cc0099, #ff00cc);
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient(top, #cc0099, #ff00cc);
+  background-image: linear-gradient(top, #cc0099, #ff00cc);
+}
+
+.gd-blue {
+  background-color: #3289d3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3289d3), to(#1a6db4)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #3289d3, #1a6db4); /* Chrome 10+, Saf5.1+ */
+  background-image: -moz-linear-gradient(top, #3289d3, #1a6db4); /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #3289d3, #1a6db4); /* IE10 */
+  background-image: -o-linear-gradient(top, #3289d3, #1a6db4); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#3289d3', EndColorStr='#1a6db4'); /* IE6–IE9 */
+  background-image: linear-gradient(top, #3289d3, #1a6db4);
+}
+
+.gd-red {
+  background-color: #cc3333;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cc3333), to(#660000)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #cc3333, #660000); /* Chrome 10+, Saf5.1+ */
+  background-image: -moz-linear-gradient(top, #cc3333, #660000); /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #cc3333, #660000); /* IE10 */
+  background-image: -o-linear-gradient(top, #cc3333, #660000); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cc3333', EndColorStr='#660000'); /* IE6–IE9 */
+  background-image: linear-gradient(top, #cc3333, #660000);
+}
+
+.gd-yellow {
+  background-color: #ffff99;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffff99), to(#ffcc33)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #ffff99, #ffcc33); /* Chrome 10+, Saf5.1+ */
+  background-image: -moz-linear-gradient(top, #ffff99, #ffcc33); /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #ffff99, #ffcc33); /* IE10 */
+  background-image: -o-linear-gradient(top, #ffff99, #ffcc33); /* Opera 11.10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffff99', EndColorStr='#ffcc33'); /* IE6–IE9 */
+  background-image: linear-gradient(top, #ffff99, #ffcc33);
+}
