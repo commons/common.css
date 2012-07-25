@@ -1,7 +1,6 @@
 /* gradients */
 
 .gd-pink {
-  /* fallback */
   background-color: #ff00cc;
   /* Safari 4-5, Chrome 1-9 */
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff00cc), to(#cc0099));
