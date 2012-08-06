@@ -42,17 +42,3 @@
 .tag, .tag:visited,
 .medium.tag, .medium.tag:visited { font-size: 13px; }
 .large.tag, .large.tag:visited { font-size: 14px; }
-.red.tag, .red.tag:visited { background-color: #e33100; }
-.red.tag:hover { background-color: #872300; }
-.green.tag, .green.tag:visited { background-color: #91bd09; }
-.green.tag:hover { background-color: #749a02; }
-.blue.tag, .blue.tag:visited { background-color: #2daebf; }
-.blue.tag:hover { background-color: #007d9a; }
-.magenta.tag, .magenta.tag:visited { background-color: #a9014b; }
-.magenta.tag:hover { background-color: #630030; }
-.orange.tag, .orange.tag:visited { background-color: #ff5c00; }
-.orange.tag:hover { background-color: #d45500; }
-.yellow.tag, .yellow.tag:visited { background-color: #ffb515; }
-.yellow.tag:hover { background-color: #fc9200; }
-.grey.tag, .grey.tag:visited { background-color: #666666; }
-.grey.tag:hover { background-color: #333333; }
