@@ -17,6 +17,7 @@
 	font-size: 13px;
 	font-weight: bold;
 	line-height: 30px;
+	text-decoration:none !important;
 	box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.4 );
 	-webkit-transform-origin: 15px 0px;
 	-moz-transform-origin: 15px 0px;
@@ -37,7 +38,7 @@
 	border: 1px solid rgba( 255, 255, 255, 0.4 );
 }
 
-.tag:hover { background-color: #111; color: #fff; }
+.tag:hover { background-color: #111; color: #fff; text-decoration:none !important }
 .small.tag, .small.tag:visited { font-size: 11px; }
 .tag, .tag:visited,
 .medium.tag, .medium.tag:visited { font-size: 13px; }
