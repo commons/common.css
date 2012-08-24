@@ -13,7 +13,8 @@
 	cursor: pointer;
 }
 
-	
+	.button:hover							{ background-color: #111; color: #fff; }
+	/* .button:active							{ top: 1px; } */
 	.small.button, .small.button:visited 			{ font-size: 11px; padding: ; }
 	.button, .button:visited,
 	.medium.button, .medium.button:visited 		{ font-size: 13px; font-weight: normal; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25); }
