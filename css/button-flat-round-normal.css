@@ -1,5 +1,5 @@
 /* buttons */
-.button, .button:visited {
+.button, a.button:visited {
 	background: #222; 
 	display: inline-block; 
 	padding: 5px 10px 6px; 
@@ -13,24 +13,24 @@
 	cursor: pointer;
 }
 
-	.button:hover							{ background-color: #111; color: #fff; }
+	a.button:hover							{ background-color: #111; color: #fff; }
 	/* .button:active							{ top: 1px; } */
-	.small.button, .small.button:visited 			{ font-size: 11px; padding: ; }
+	.small.button, a.small.button:visited 			{ font-size: 11px; padding: ; }
 	.button, .button:visited,
-	.medium.button, .medium.button:visited 		{ font-size: 13px; font-weight: normal; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25); }
-	.large.button, .large.button:visited 			{ font-size: 14px; padding: 8px 14px 9px; }
+	.medium.button, a.medium.button:visited 		{ font-size: 13px; font-weight: normal; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25); }
+	.large.button, a.large.button:visited 			{ font-size: 14px; padding: 8px 14px 9px; }
 	
-	.red.button, .red.button:visited			{ background-color: #e33100; }
-	.red.button:hover							{ background-color: #872300; }
-	.green.button, .green.button:visited		{ background-color: #91bd09; }
-	.green.button:hover						{ background-color: #749a02; }
-	.blue.button, .blue.button:visited		{ background-color: #2daebf; }
-	.blue.button:hover							{ background-color: #007d9a; }
-	.magenta.button, .magenta.button:visited		{ background-color: #a9014b; }
-	.magenta.button:hover							{ background-color: #630030; }
-	.orange.button, .orange.button:visited		{ background-color: #ff5c00; }
-	.orange.button:hover							{ background-color: #d45500; }
-	.yellow.button, .yellow.button:visited		{ background-color: #ffb515; }
-	.yellow.button:hover							{ background-color: #fc9200; }
-	.grey.button, .grey.button:visited		{ background-color: #666666; }
-	.grey.button:hover							{ background-color: #333333; }
+	.red.button, a.red.button:visited			{ background-color: #e33100; }
+	a.red.button:hover							{ background-color: #872300; }
+	.green.button, a.green.button:visited		{ background-color: #91bd09; }
+	a.green.button:hover						{ background-color: #749a02; }
+	.blue.button, a.blue.button:visited		{ background-color: #2daebf; }
+	a.blue.button:hover							{ background-color: #007d9a; }
+	.magenta.button, a.magenta.button:visited		{ background-color: #a9014b; }
+	a.magenta.button:hover							{ background-color: #630030; }
+	.orange.button, a.orange.button:visited		{ background-color: #ff5c00; }
+	a.orange.button:hover							{ background-color: #d45500; }
+	.yellow.button, a.yellow.button:visited		{ background-color: #ffb515; }
+	a.yellow.button:hover							{ background-color: #fc9200; }
+	.grey.button, a.grey.button:visited		{ background-color: #666666; }
+	a.grey.button:hover							{ background-color: #333333; }
