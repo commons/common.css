@@ -27,6 +27,15 @@
 	text-overflow: ellipsis; 
 }
 
+a.ico-external {
+	display:inline-block;
+	padding-right:15px;
+	margin-right:2px;
+	background-image:url(../img/icons/external_link_icon_sprite.gif);
+	background-repeat:no-repeat;
+	background-position:right 3px;
+}
+
 /* Rounded corners */
 .r5 {
 	border-radius: 5px;

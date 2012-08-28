@@ -50,3 +50,23 @@
 .tag, .tag:visited,
 .medium.tag, .medium.tag:visited { font-size: 13px; }
 .large.tag, .large.tag:visited { font-size: 14px; }
+
+@media screen and (max-width: 800px) {
+
+.ribbon {
+	width: 120px;
+	height: 120px;
+}
+
+.ribbon .tag {
+	height: 30px;
+	width: 120px;
+	-webkit-transform: translate(50.00000000000003px, -14.999999999999996px) rotate(45.000000000000014deg);
+}
+
+.ribbon .tag:after {
+	width: 156px;
+	height: 26px;
+}
+
+}
