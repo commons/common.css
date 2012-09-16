@@ -19,6 +19,12 @@
 
 .oh { overflow:hidden; }
 
+.center {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .tr-grey { background: rgba(220, 220, 220, 0.5); }
 
 .trunc { 
