@@ -13,6 +13,8 @@
 
 .fr { float:right; }
 
+.ab { position: absolute; }
+
 .hide{ display: none; }
 
 .m-point { cursor:pointer; }
