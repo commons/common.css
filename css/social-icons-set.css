@@ -1,0 +1,294 @@
+/* set 1 */
+.mono-21px-youtube {
+	background: url('../img/icons/social-icons-set.png') no-repeat -4px -38px;
+	width: 21px;
+	height: 21px;
+}
+
+.mono-21px-facebook {
+	background: url('../img/icons/social-icons-set.png') no-repeat -31px -38px;
+	width: 21px;
+	height: 21px;
+}
+
+.mono-21px-twitter {
+	background: url('../img/icons/social-icons-set.png') no-repeat -58px -38px;
+	width: 21px;
+	height: 21px;
+}
+
+.mono-21px-linkedin {
+	background: url('../img/icons/social-icons-set.png') no-repeat -85px -38px;
+	width: 21px;
+	height: 21px;
+}
+
+.mono-21px-flickr {
+	background: url('../img/icons/social-icons-set.png') no-repeat -112px -38px;
+	width: 21px;
+	height: 21px;
+}
+
+.mono-21px-octocat {
+	background: url('../img/icons/social-icons-set.png') no-repeat -140px -39px;
+	width: 21px;
+	height: 21px;
+}
+
+.mono-21px-github {
+	background: url('../img/icons/social-icons-set.png') no-repeat -167px -39px;
+	width: 21px;
+	height: 21px;
+}
+
+/* set 2 */
+.color-20px-facebook {
+	background: url('../img/icons/social-icons-set.png') no-repeat -4px -65px;
+	width: 20px;
+	height: 19px;
+}
+
+.color-20px-twitter {
+	background: url('../img/icons/social-icons-set.png') no-repeat -5px -90px;
+	width: 20px;
+	height: 19px;
+}
+
+.color-20px-email {
+	background: url('../img/icons/social-icons-set.png') no-repeat -5px -115px;
+	width: 20px;
+	height: 19px;
+}
+
+.color-20px-github {
+	background: url('../img/icons/social-icons-set.png') no-repeat -5px -140px;
+	width: 20px;
+	height: 19px;
+}
+
+/* set 3 */
+.color-29px-twitter {
+	background: url('../img/icons/social-icons-set.png') no-repeat -6px -189px;
+	width: 29px;
+	height: 29px;
+}
+
+.color-29px-facebook {
+	background: url('../img/icons/social-icons-set.png') no-repeat -42px -188px;
+	width: 31px;
+	height: 31px;
+}
+
+.color-29px-rss {
+	background: url('../img/icons/social-icons-set.png') no-repeat -80px -187px;
+	width: 31px;
+	height: 31px;
+}
+
+.color-29px-email {
+	background: url('../img/icons/social-icons-set.png') no-repeat -117px -188px;
+	width: 31px;
+	height: 30px;
+}
+
+.color-29px-linkedin {
+	background: url('../img/icons/social-icons-set.png') no-repeat -155px -188px;
+	width: 31px;
+	height: 30px;
+}
+
+.color-29px-youtube {
+	background: url('../img/icons/social-icons-set.png') no-repeat -9px -232px;
+	width: 30px;
+	height: 29px;
+}
+
+.color-29px-flickr {
+	background: url('../img/icons/social-icons-set.png') no-repeat -48px -231px;
+	width: 30px;
+	height: 29px;
+}
+
+.color-29px-github {
+	background: url('../img/icons/social-icons-set.png') no-repeat -88px -231px;
+	width: 29px;
+	height: 29px;
+}
+
+.color-29px-octocat {
+	background: url('../img/icons/social-icons-set.png') no-repeat -126px -231px;
+	width: 29px;
+	height: 29px;
+}
+
+.color-29px-googleplus {
+	background: url('../img/icons/social-icons-set.png') no-repeat -165px -232px;
+	width: 28px;
+	height: 28px;
+}
+
+/* set 4 */
+.color-16px-facebook {
+	background: url('../img/icons/social-icons-set.png') no-repeat -22px -271px;
+	width: 17px;
+	height: 16px;
+}
+
+.color-16px-rss {
+	background: url('../img/icons/social-icons-set.png') no-repeat -43px -270px;
+	width: 17px;
+	height: 17px;
+}
+
+.color-16px-email {
+	background: url('../img/icons/social-icons-set.png') no-repeat -63px -271px;
+	width: 17px;
+	height: 16px;
+}
+
+.color-16px-linkedin {
+	background: url('../img/icons/social-icons-set.png') no-repeat -83px -271px;
+	width: 17px;
+	height: 16px;
+}
+
+.color-16px-youtube {
+	background: url('../img/icons/social-icons-set.png') no-repeat -103px -271px;
+	width: 16px;
+	height: 16px;
+}
+
+.color-16px-flickr {
+	background: url('../img/icons/social-icons-set.png') no-repeat -123px -270px;
+	width: 17px;
+	height: 17px;
+}
+
+.color-16px-github {
+	background: url('../img/icons/social-icons-set.png') no-repeat -143px -271px;
+	width: 15px;
+	height: 15px;
+}
+
+/* set 5 */
+.color-60px-facebook {
+	background: url('../img/icons/social-icons-set.png') no-repeat -3px -320px;
+	width: 60px;
+	height: 60px;
+}
+
+.color-60px-linkedin {
+	background: url('../img/icons/social-icons-set.png') no-repeat -66px -320px;
+	width: 60px;
+	height: 60px;
+}
+
+.color-60px-twitter {
+	background: url('../img/icons/social-icons-set.png') no-repeat -129px -320px;
+	width: 60px;
+	height: 60px;
+}
+
+.color-60px-github {
+	background: url('../img/icons/social-icons-set.png') no-repeat -193px -320px;
+	width: 60px;
+	height: 60px;
+}
+
+.color-60px-googleplus {
+	background: url('../img/icons/social-icons-set.png') no-repeat -3px -382px;
+	width: 60px;
+	height: 60px;
+}
+
+/* set 6 */
+.mono-nobg-22px-twitter {
+	background: url('../img/icons/social-icons-set.png') no-repeat -6px -458px;
+	width: 27px;
+	height: 22px;
+}
+
+.mono-nobg-22px-facebook {
+	background: url('../img/icons/social-icons-set.png') no-repeat -47px -458px;
+	width: 12px;
+	height: 22px;
+}
+
+.mono-nobg-22px-linkedin {
+	background: url('../img/icons/social-icons-set.png') no-repeat -76px -456px;
+	width: 27px;
+	height: 22px;
+}
+
+.mono-nobg-22px-googleplus {
+	background: url('../img/icons/social-icons-set.png') no-repeat -113px -457px;
+	width: 26px;
+	height: 23px;
+}
+
+.mono-nobg-22px-youtube {
+	background: url('../img/icons/social-icons-set.png') no-repeat -148px -455px;
+	width: 21px;
+	height: 26px;
+}
+
+.mono-nobg-22px-rss {
+	background: url('../img/icons/social-icons-set.png') no-repeat -184px -461px;
+	width: 19px;
+	height: 18px;
+}
+
+.mono-nobg-22px-github {
+	background: url('../img/icons/social-icons-set.png') no-repeat -247px -458px;
+	width: 12px;
+	height: 22px;
+}
+
+/* set 7 */
+.mono-nobg-17px-twitter {
+	background: url('../img/icons/social-icons-set.png') no-repeat -6px -491px;
+	width: 17px;
+	height: 15px;
+}
+
+.mono-nobg-17px-facebook {
+	background: url('../img/icons/social-icons-set.png') no-repeat -37px -491px;
+	width: 8px;
+	height: 16px;
+}
+
+.mono-nobg-17px-linkedin {
+	background: url('../img/icons/social-icons-set.png') no-repeat -62px -491px;
+	width: 17px;
+	height: 16px;
+}
+
+.mono-nobg-17px-email {
+	background: url('../img/icons/social-icons-set.png') no-repeat -95px -493px;
+	width: 17px;
+	height: 13px;
+}
+
+.mono-nobg-17px-github {
+	background: url('../img/icons/social-icons-set.png') no-repeat -125px -492px;
+	width: 8px;
+	height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
