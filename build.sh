@@ -8,6 +8,25 @@
 
 yuicompressor=./tools/yuicompressor-2.4.7.jar
 
+
+# Concatinates files
+concat()
+{
+
+## Files
+FILES="./css/reset.css
+./css/normalize.css
+./css/classes.css"
+
+	# Remove old file
+	rm build/$1
+	# Create new blank
+	touch build/$1
+	# Append content
+	#for f in $FILES; do $f >> "build/$1"; done
+	cat $FILES > "build/$1"
+}
+
 minjs()
 {
     echo "Compressing all javascript files:"
@@ -49,6 +68,16 @@ yhelp()
     echo ""
 }
 
+if [ -z $1 ]; then
+    yhelp
+else
+	concat $1
+	compress "build/$1"
+fi
+
+exit 0
+
+## OLD Build
 if [ -z $1 ]; then
     yhelp
 else
