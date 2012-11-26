@@ -387,6 +387,7 @@ table {
 }
 .cl { clear:both; }
 .fl { float:left; }
+.fn { float:none; }
 .fr { float:right; }
 .ab { position: absolute; }
 .hide { display: none; }
