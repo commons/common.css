@@ -16,7 +16,8 @@ concat()
 ## Files
 FILES="./css/reset.css
 ./css/normalize.css
-./css/classes.css"
+./css/classes.css
+./css/attributes.css"
 
 	# Remove old file
 	rm build/$1

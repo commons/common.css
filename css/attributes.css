@@ -1,0 +1,8 @@
+[data-icon]:before {
+	font-family: 'iconset'; 
+  	content: attr(data-icon);
+  	speak: none; 
+  	font-style: normal;
+  	font-weight: normal;
+  	-webkit-font-smoothing: antialiased;
+}

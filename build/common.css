@@ -387,7 +387,6 @@ table {
 }
 .cl { clear:both; }
 .fl { float:left; }
-.fn { float:none; }
 .fr { float:right; }
 .ab { position: absolute; }
 .hide { display: none; }
@@ -404,4 +403,11 @@ table {
 	white-space: nowrap; 
 	overflow: hidden; 
 	text-overflow: ellipsis; 
+}[data-icon]:before {
+	font-family: 'iconset'; 
+  	content: attr(data-icon);
+  	speak: none; 
+  	font-style: normal;
+  	font-weight: normal;
+  	-webkit-font-smoothing: antialiased;
 }
