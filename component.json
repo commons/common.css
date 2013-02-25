@@ -1,0 +1,10 @@
+{
+  "name": "common-css",
+  "version": "0.6.0",
+  "main": "./build/common.min.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/commons/common.css.git"
+  },
+  "dependencies": {}
+}
