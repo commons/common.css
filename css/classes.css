@@ -17,3 +17,4 @@
 	overflow: hidden; 
 	text-overflow: ellipsis; 
 }
+.no-scroll{ overflow:hidden; -webkit-overflow-scrolling:none; }
