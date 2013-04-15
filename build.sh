@@ -16,9 +16,9 @@ concat()
 ## Files
 FILES="./css/reset.css
 ./css/normalize.css
-./css/touch.css
 ./css/classes.css
-./css/attributes.css"
+./css/attributes.css
+./css/touch.css"
 
 
 	# Remove old file
