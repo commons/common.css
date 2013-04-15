@@ -425,7 +425,8 @@ textarea[contenteditable] {
 	white-space: nowrap; 
 	overflow: hidden; 
 	text-overflow: ellipsis; 
-}[data-icon]:before {
+}
+.no-scroll{ overflow:hidden; -webkit-overflow-scrolling:none; }[data-icon]:before {
 	font-family: 'iconset'; 
   	content: attr(data-icon);
   	speak: none; 
