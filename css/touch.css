@@ -8,9 +8,12 @@ body {
 	-webkit-overflow-scrolling: touch; 
 }
 
+/* following trick to force hardware acceleration
+/* disabled for now as it breaks fixed headers
 body > * {
     -webkit-transform: translateZ(0px);
 }
+*/
 
 /* Source: HTML5 Boilerplate https://github.com/h5bp */
 
