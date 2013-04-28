@@ -1,0 +1,30 @@
+/* Disable certain interactions on touch devices */
+body { 
+    -webkit-touch-callout: none; 
+    -webkit-text-size-adjust: none; 
+    -webkit-user-select: none; 
+    -webkit-highlight: none; 
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-overflow-scrolling: touch; 
+}
+
+/* following trick to force hardware acceleration
+/* disabled for now as it breaks fixed headers
+body > * {
+    -webkit-transform: translateZ(0px);
+}
+*/
+
+/* Source: HTML5 Boilerplate https://github.com/h5bp */
+
+/* Prevent callout */
+.nocallout {
+    -webkit-touch-callout: none;
+}
+
+/* A hack for HTML5 contenteditable attribute on mobile */
+textarea[contenteditable] {
+    -webkit-appearance: none;
+}
+
+/* end h5bp styles */
