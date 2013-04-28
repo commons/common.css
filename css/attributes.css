@@ -6,3 +6,7 @@
   	font-weight: normal;
   	-webkit-font-smoothing: antialiased;
 }
+/* #20 enable select flag for contenteditalble fields in Chrome */
+*[contenteditable] {
+    -webkit-user-select: text;
+}

@@ -404,11 +404,17 @@ table {
 	overflow: hidden; 
 	text-overflow: ellipsis; 
 }
-.no-scroll{ overflow:hidden; -webkit-overflow-scrolling:none; }[data-icon]:before {
+.no-scroll{ overflow:hidden; -webkit-overflow-scrolling:none; }
+
+[data-icon]:before {
 	font-family: 'iconset'; 
   	content: attr(data-icon);
   	speak: none; 
   	font-style: normal;
   	font-weight: normal;
   	-webkit-font-smoothing: antialiased;
+}
+/* #20 enable select flag for contenteditalble fields in Chrome */
+*[contenteditable] {
+    -webkit-user-select: text;
 }
