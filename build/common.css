@@ -404,14 +404,21 @@ table {
 	overflow: hidden; 
 	text-overflow: ellipsis; 
 }
-.no-scroll{ overflow:hidden; -webkit-overflow-scrolling:none; }[data-icon]:before {
+.no-scroll{ overflow:hidden; -webkit-overflow-scrolling:none; }
+
+[data-icon]:before {
 	font-family: 'iconset'; 
   	content: attr(data-icon);
   	speak: none; 
   	font-style: normal;
   	font-weight: normal;
   	-webkit-font-smoothing: antialiased;
-}/* Disable certain interactions on touch devices */
+}
+/* #20 enable select flag for contenteditalble fields in Chrome */
+*[contenteditable] {
+    -webkit-user-select: text;
+}
+/* Disable certain interactions on touch devices */
 body { 
     -webkit-touch-callout: none; 
     -webkit-text-size-adjust: none; 
