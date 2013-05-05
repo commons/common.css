@@ -18,6 +18,7 @@
 	text-overflow: ellipsis; 
 }
 .no-scroll{ overflow:hidden; -webkit-overflow-scrolling:none; }
+.scroll { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
 .external-link {
 	display:inline-block;
 	padding-right:1.5em;
