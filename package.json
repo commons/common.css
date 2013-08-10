@@ -1,0 +1,33 @@
+{
+	"name": "common.css",
+	"private": true,
+	"version": "0.7.0",
+	"description": "One common include for styles",
+	"author": "makesites",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@makesit.es" },
+		{ "name": "Lyndel Thomas", "email": "lyndelt@gmail.com" }
+	],
+	"homepage": "https://github.com/commons/common.css",
+	"keywords": ["common", "css"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/commons/common.css.git"
+	},
+	"bugs": {
+		"url": "https://github.com/commons/common.css/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT license",
+			"url": "http://makesites.org/licenses/MIT"
+		}
+	],
+	"engines": { "node": "0.8.x" },
+	"main": "build",
+	"dependencies" : {
+		"commander" : "1.x",
+		"hbs" : "1.x",
+		"clean-css": "1.x"
+	}
+}
