@@ -21,6 +21,7 @@ _handlebars.registerHelper('license', function(items){
  // - concatinate all files
 concat({
 	src : [
+		'css/_start.css',
 		'css/reset.css',
 		'css/normalize.css',
 		'css/classes.css',
