@@ -1,3 +1,9 @@
+/*! @name common.css - 0.7.1 (Sat, 10 Aug 2013 10:07:51 GMT) */
+/* @url https://github.com/commons/common.css */
+
+/* @author makesites */
+/* @license MIT license */
+
 @charset "utf-8";
 /* Paul Irish box sixing fix */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -10,7 +16,8 @@ img {
   	vertical-align: middle;
   	border: 0;
   	-ms-interpolation-mode: bicubic;
-}/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+}
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 
 /* ==========================================================================
    HTML5 display definitions
@@ -385,6 +392,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 .cl { clear:both; }
 .fl { float:left; }
 .fr { float:right; }
@@ -423,7 +431,8 @@ table {
 	background-repeat:no-repeat;
 	background-position:right 0px;
 	background-size: contain;
-}[data-icon]:before {
+}
+[data-icon]:before {
 	font-family: 'iconset'; 
   	content: attr(data-icon);
   	speak: none; 
@@ -435,6 +444,7 @@ table {
 *[contenteditable] {
     -webkit-user-select: text;
 }
+
 /* Disable certain interactions on touch devices */
 body { 
     -webkit-touch-callout: none; 
