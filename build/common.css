@@ -1,4 +1,4 @@
-/*! @name common.css - 0.7.1 (Sat, 10 Aug 2013 10:07:51 GMT) */
+/*! @name common.css - 0.7.1 (Sat, 21 Dec 2013 00:31:47 GMT) */
 /* @url https://github.com/commons/common.css */
 
 /* @author makesites */
@@ -444,7 +444,16 @@ table {
 *[contenteditable] {
     -webkit-user-select: text;
 }
-
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
 /* Disable certain interactions on touch devices */
 body { 
     -webkit-touch-callout: none; 
