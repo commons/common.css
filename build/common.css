@@ -1,22 +1,30 @@
-/*! @name common.css - 0.7.1 (Sat, 21 Dec 2013 00:31:47 GMT) */
+/*! @name common.css - 0.7.5 (Tue, 21 Jan 2014 23:22:12 GMT) */
 /* @url https://github.com/commons/common.css */
 
 /* @author makesites */
 /* @license MIT license */
 
 @charset "utf-8";
-/* Paul Irish box sixing fix */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-* { margin:0; padding:0 }
-/* don't focus with outline */
-*:focus { outline: none; }
-ul.nav { list-style-type: none; }
-img {
-  	max-width: 100%; /* Make images inherently responsive */
-  	vertical-align: middle;
-  	border: 0;
-  	-ms-interpolation-mode: bicubic;
+
+/* Reset existing styling that may be applied by browsers */
+
+* {
+	margin:0;
+	padding:0
 }
+
+/* Paul Irish box sixing fix */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* don't focus with outline */
+*:focus {
+	outline: none;
+}
+
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 
 /* ==========================================================================
@@ -393,27 +401,107 @@ table {
     border-spacing: 0;
 }
 
-.cl { clear:both; }
-.fl { float:left; }
-.fr { float:right; }
-.ab { position: absolute; }
-.hide { display: none; }
-.m-point { cursor:pointer; }
-.oh { overflow:hidden; }
-.hide-text { font: 0/0; color: transparent; text-shadow: none; background-color: transparent; border: 0; }
-.ir { text-indent: 100%; white-space: nowrap; overflow: hidden; }
-.hidden { display: none; visibility: hidden; }
-.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
-.center { text-align:center; margin-left:auto; margin-right:auto; }
-.trunc { 
-	white-space: nowrap; 
-	overflow: hidden; 
-	text-overflow: ellipsis; 
+body, html {
+	min-height: 100%;
 }
-.no-scroll{ overflow:hidden; -webkit-overflow-scrolling:none; }
-.scroll { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+
+img {
+	max-width: 100%; /* Make images inherently responsive */
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+/* tags with specific classes */
+ul.nav {
+	list-style-type: none;
+}
+
+.cl {
+	clear:both;
+}
+
+.fl {
+	float:left;
+}
+
+.fr {
+	float:right;
+}
+
+.ab {
+	position: absolute;
+}
+
+.hide {
+	display: none;
+}
+
+.m-point {
+	cursor:pointer;
+}
+
+.oh {
+	overflow:hidden;
+}
+
+.hide-text {
+	font: 0/0;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+
+.ir {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+/* clearfix */
+.clearfix:before, .clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.center {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.trunc {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.no-scroll{
+	overflow:hidden;
+	-webkit-overflow-scrolling:none;
+}
+
+.scroll {
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
 .external-link {
 	display:inline-block;
 	padding-right:1.5em;
@@ -423,6 +511,7 @@ table {
 	background-position:right 0px;
 	background-size: contain;
 }
+
 .external-link-light {
 	display:inline-block;
 	padding-right:1.5em;
@@ -432,42 +521,45 @@ table {
 	background-position:right 0px;
 	background-size: contain;
 }
+
 [data-icon]:before {
-	font-family: 'iconset'; 
-  	content: attr(data-icon);
-  	speak: none; 
-  	font-style: normal;
-  	font-weight: normal;
-  	-webkit-font-smoothing: antialiased;
+	font-family: 'iconset';
+	content: attr(data-icon);
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
 }
+
 /* #20 enable select flag for contenteditalble fields in Chrome */
 *[contenteditable] {
-    -webkit-user-select: text;
+	-webkit-user-select: text;
 }
+
 /* Prevent the text contents of draggable elements from being selectable. */
 [draggable] {
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  /* Required to make elements draggable in old WebKit */
-  -khtml-user-drag: element;
-  -webkit-user-drag: element;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
 }
 /* Disable certain interactions on touch devices */
-body { 
-    -webkit-touch-callout: none; 
-    -webkit-text-size-adjust: none; 
-    -webkit-user-select: none; 
-    -webkit-highlight: none; 
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-overflow-scrolling: touch; 
+body {
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+	-webkit-highlight: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-overflow-scrolling: touch;
 }
 
 /* following trick to force hardware acceleration
 /* disabled for now as it breaks fixed headers
 body > * {
-    -webkit-transform: translateZ(0px);
+	-webkit-transform: translateZ(0px);
 }
 */
 
@@ -475,12 +567,12 @@ body > * {
 
 /* Prevent callout */
 .nocallout {
-    -webkit-touch-callout: none;
+	-webkit-touch-callout: none;
 }
 
 /* A hack for HTML5 contenteditable attribute on mobile */
 textarea[contenteditable] {
-    -webkit-appearance: none;
+	-webkit-appearance: none;
 }
 
 /* end h5bp styles */

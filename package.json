@@ -1,7 +1,7 @@
 {
 	"name": "common.css",
 	"private": true,
-	"version": "0.7.1",
+	"version": "0.7.5",
 	"description": "One common include for styles",
 	"author": "makesites",
 	"contributors": [
