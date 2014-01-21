@@ -1,0 +1,15 @@
+body, html {
+	min-height: 100%;
+}
+
+img {
+	max-width: 100%; /* Make images inherently responsive */
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+/* tags with specific classes */
+ul.nav {
+	list-style-type: none;
+}

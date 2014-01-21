@@ -24,6 +24,7 @@ concat({
 		'css/_start.css',
 		'css/reset.css',
 		'css/normalize.css',
+		'css/tags.css',
 		'css/classes.css',
 		'css/attributes.css',
 		'css/touch.css'
