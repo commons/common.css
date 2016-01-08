@@ -13,3 +13,7 @@ img {
 ul.nav {
 	list-style-type: none;
 }
+
+a {
+	cursor: pointer;
+}
