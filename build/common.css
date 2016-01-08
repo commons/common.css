@@ -1,4 +1,4 @@
-/*! @name common.css - 0.7.5 (Tue, 21 Jan 2014 23:22:12 GMT) */
+/*! @name common.css - 0.7.5 (Fri, 08 Jan 2016 19:20:26 GMT) */
 /* @url https://github.com/commons/common.css */
 
 /* @author makesites */
@@ -417,6 +417,10 @@ ul.nav {
 	list-style-type: none;
 }
 
+a {
+	cursor: pointer;
+}
+
 .cl {
 	clear:both;
 }
@@ -520,6 +524,13 @@ ul.nav {
 	background-repeat:no-repeat;
 	background-position:right 0px;
 	background-size: contain;
+}
+
+.desaturate {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
 }
 
 [data-icon]:before {
